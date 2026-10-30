@@ -36,7 +36,22 @@ this stage.
 Remaining risk: path mapping is intentionally heuristic; custom or monorepo
 layouts require local configuration. Strict mode remains opt-in.
 
-Next stage: independently validate the implementation and write
-`reports/test.md`.
+## QA, release and showcase complete (2026-10-30)
+
+Independent QA passed **6/6** automated tests, a disposable-Git smoke run,
+strict-mode/error probes, and Python compilation. The prior dot-prefixed-path
+normalisation issue was fixed with a regression test before this final run.
+See `reports/test.md` for the exact evidence.
+
+The release is prepared locally on branch `main`. The local repository has no
+remote and no external GitHub or Reddit action was performed. README, MIT
+license, a secret scan, and the reproducible README-linked SVG demo were
+reviewed; see `reports/publish.md` and `reports/showcase.md`.
+
+Remaining risk: output is a filename/path heuristic, not a proof of test
+quality, coverage, correctness, or safety. Custom layouts need local policy.
+
+Next stage: prepare a Reddit draft only, unless this project's `STATE.json`
+is explicitly updated to authorize external publication/submission.
 
 Next command: `./forge resume /Users/rahul/Documents/Codes/Exttra/Claude-works/AI-Agents/github/projects/20261030-164709-developer-and-engineering-pain-points`
