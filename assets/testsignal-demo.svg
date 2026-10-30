@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="Terminal demonstration of TestSignal">
+  <rect width="1000" height="430" rx="18" fill="#0d1117"/>
+  <circle cx="38" cy="34" r="9" fill="#ff5f57"/><circle cx="66" cy="34" r="9" fill="#febc2e"/><circle cx="94" cy="34" r="9" fill="#28c840"/>
+  <g font-family="SFMono-Regular,Consolas,monospace" font-size="20" fill="#c9d1d9">
+    <text x="32" y="86" fill="#7ee787">$ ./scripts/demo-fixture.sh</text>
+    <text x="32" y="132" fill="#f0f6fc">TestSignal test-impact receipt</text>
+    <text x="32" y="166">Compared: HEAD~1..HEAD</text>
+    <text x="32" y="212" fill="#ff7b72">UNMATCHED: src/formatter.py (M)</text>
+    <text x="56" y="244">candidates: __tests__/formatter_test.py, tests/test_formatter.py, ...</text>
+    <text x="32" y="290" fill="#7ee787">MATCHED: src/parser.py (M)</text>
+    <text x="56" y="322">changed tests: tests/test_parser.py</text>
+    <text x="32" y="382" fill="#8b949e">Heuristic filename/path signal only; it does not prove test quality, coverage, or correctness.</text>
+  </g>
+</svg>
